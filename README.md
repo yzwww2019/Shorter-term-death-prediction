@@ -12,17 +12,17 @@ Patient file format
 For a patient, the csv files in the following format are needed for prediction. If value is unknow, you can leave the cell empty. (Please refer to the supplementary materials of the paper for specific data and types. The categorical variables need to be coded discretely.)
 
 p1.csv
-T	Variable 1	Variable 2	Variable 3	……	Variable N-1	Variable N
-t1						
-t2						
-t3						
+|T|	Variable 1|	Variable 2|	Variable 3|	……	|Variable N-1	|Variable N|
+|t1	|					
+|t2	|					
+|t3	|				
 
 Label file format
 
 For all patients, a csv file in the following format is needed for prediction. (For different time window 24h, 48h, 72h and 7d, label should be corresponding death result.)
 
-File Name	Label
-p1.csv	0/1
+|File| Name	|Label|
+|p1.csv|	0/1
 P2.csv	0/1
 P3.csv	0/1
 
