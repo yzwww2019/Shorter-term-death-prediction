@@ -1,1 +1,1 @@
-# Shorter-term-death-prediction
+# Shorter-term-death-prediction workflow
