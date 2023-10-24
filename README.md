@@ -66,5 +66,5 @@ Evaluation code will analysis prediction by precision, recall, f-score, accuracy
 The trained model and results are stored in output_save_path.
 
 # Disclaimer
-This model is for research purpose and not approved for clinical use.
+This workflow is for research purpose and not approved for clinical use.
 
