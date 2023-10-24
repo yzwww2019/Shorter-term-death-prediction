@@ -1,5 +1,5 @@
 # Shorter-term-death-prediction workflow
-#A deep learning workflow for predicting shorter-term death of acute kidney injury
+# A deep learning workflow for predicting shorter-term death of acute kidney injury
 
 The deep learning workflow can be used to predict the shorts-term death of AKI inpatients.
 
