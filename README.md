@@ -3,10 +3,10 @@
 
 The deep learning workflow can be used to predict the shorts-term death of AKI inpatients.
 
-#Dependencies
+# Dependencies
 You can install the required dependency library by requirement.txt. (Python 3.7 and TensorFlow 1.15)
 
-#Data
+# Data
 Patient file format
 
 For a patient, the csv files in the following format are needed for prediction. If value is unknow, you can leave the cell empty. (Please refer to the supplementary materials of the paper for specific data and types. The categorical variables need to be coded discretely.)
@@ -28,7 +28,7 @@ P3.csv	0/1
 
 The patient data should be divided into derivation, internal validation, and external validation cohorts with corresponding label and put them to the directory /data.
 
-#Train/Test
+# Train/Test
 First, you should set the parameters in main.py, for example, the directory of data, batch_size, epoch, and so on. The mode should be set as “train”.
 
 Second, you should set the number of class and input dimension (e.g., num_classes = 2, input_dim = 110) and modify the input dimension in the function of read_single_xlsx() in reader.py.
@@ -41,7 +41,7 @@ Third, you should comment the following code in main.py.
 
 Finally, you can conduct the train and test process.
 
-#Validation
+# Validation
 First, you should set the parameters in main.py, for example, the directory of data, batch_size, epoch, and so on. The mode should be set as “extervalidate”. The load_state should set as the path of trained model.
 
 Second, you should set the number of class and input dimension (e.g., num_classes = 2, input_dim = 110) and modify the input dimension in the function of read_single_xlsx() in reader.py.
@@ -59,11 +59,11 @@ Third, you should comment the following code in main.py.
 
 Finally, you can conduct the validation process.
 
-#Evaluation
+# Evaluation
 Evaluation code will analysis prediction by precision, recall, f-score, accuracy and AUROC.
 
 The trained model and results are stored in output_save_path.
 
-#Disclaimer
+# Disclaimer
 This model is for research purpose and not approved for clinical use.
 
