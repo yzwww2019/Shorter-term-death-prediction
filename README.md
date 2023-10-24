@@ -23,6 +23,7 @@ Label file format
 For all patients, a csv file in the following format is needed for prediction. (For different time window 24h, 48h, 72h and 7d, label should be corresponding death result.)
 
 |File Name |Label|
+|-|-|
 |p1.csv|	0/1|
 |P2.csv|	0/1|
 |P3.csv|  0/1|
