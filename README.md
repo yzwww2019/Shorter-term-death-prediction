@@ -13,6 +13,7 @@ For a patient, the csv files in the following format are needed for prediction. 
 
 p1.csv
 |T|	Variable 1|	Variable 2|	Variable 3|	……	|Variable N-1	|Variable N|
+|-|-|-|-|-|-|-|
 |t1	|					
 |t2	|					
 |t3	|				
